@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model - CSS Lesson Part 2</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="navbar">
+        <div class="logo">
+            <h2>CSS LESSON PART 2</h2>
+        </div>
+        <nav class="nav-links">
+            <a href="../index.html">INTRODUCTION</a>
+
+            <!-- Dropdown 1 -->
+            <div class="dropdown">
+                <button class="dropbtn">BASICS ▾</button>
+                <div class="dropdown-content">
+                    <a href="selectors.html">SELECTORS</a>
+                    <a href="properties.html">PROPERTIES</a>
+                    <a href="gradients.html">GRADIENTS</a>
+                </div>
+            </div>
+
+            <!-- Dropdown 2 -->
+            <div class="dropdown">
+                <button class="dropbtn">LAYOUT ▾</button>
+                <div class="dropdown-content">
+                    <a href="box-model.html" class="active">BOX MODEL</a>
+                    <a href="positioning.html">POSITIONING</a>
+                    <a href="display-flex.html">DISPLAY & FLEX</a>
+                </div>
+            </div>
+
+            <!-- Dropdown 3 -->
+            <div class="dropdown">
+                <button class="dropbtn">ADVANCED ▾</button>
+                <div class="dropdown-content">
+                    <a href="lists-links.html">LISTS & PSEUDO</a>
+                    <a href="pseudo-elements.html">PSEUDO-ELEMENTS</a>
+                    <a href="transforms-transitions.html">TRANSFORMS</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main class="hero-container">
+        <!-- Left Content -->
+        <div class="hero-left">
+            <p class="tagline">Core Concept</p>
+            <h1 class="main-title">CSS Box Model</h1>
+            <p class="description">Every element in CSS is wrapped in a box. Understanding the 4 layers (Content, Padding, Border, Margin) gives you complete control over spacing and layout.</p>
+            <p class="sub-description"><strong>Memory Trick:</strong> Padding is inside the border. Margin is outside the border.</p>
+            <a href="positioning.html" class="cta-button">Next Lesson →</a>
+        </div>
+
+        <!-- Right Content -->
+        <div class="hero-right">
+            <div class="preview-card">
+                <h3>The 4 Box Model Parts</h3>
+                <ul>
+                    <li><strong>Content:</strong> The actual text, images, or media inside the box.</li>
+                    <li><strong>Padding:</strong> Space inside the box, between the content and the border.</li>
+                    <li><strong>Border:</strong> The outline surrounding the content and padding.</li>
+                    <li><strong>Margin:</strong> Space outside the border, separating it from other boxes.</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2026 Prince Daryl R. Nieves. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
