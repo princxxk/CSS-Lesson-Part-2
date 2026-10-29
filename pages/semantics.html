@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML - CSS Lesson Part 2</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="navbar">
+        <div class="logo">
+            <h2>CSS LESSON PART 2</h2>
+        </div>
+        <nav class="nav-links">
+            <a href="../index.html">INTRODUCTION</a>
+
+            <!-- Dropdown 1 -->
+            <div class="dropdown">
+                <button class="dropbtn">BASICS ▾</button>
+                <div class="dropdown-content">
+                    <a href="selectors.html">SELECTORS</a>
+                    <a href="properties.html">PROPERTIES</a>
+                    <a href="gradients.html">GRADIENTS</a>
+                </div>
+            </div>
+
+            <!-- Dropdown 2 -->
+            <div class="dropdown">
+                <button class="dropbtn active">LAYOUT ▾</button>
+                <div class="dropdown-content">
+                    <a href="box-model.html">BOX MODEL</a>
+                    <a href="positioning.html">POSITIONING</a>
+                    <a href="display-flex.html">DISPLAY & FLEX</a>
+                    <a href="semantics.html" class="active">SEMANTICS</a>
+                </div>
+            </div>
+
+            <!-- Dropdown 3 -->
+            <div class="dropdown">
+                <button class="dropbtn">ADVANCED ▾</button>
+                <div class="dropdown-content">
+                    <a href="lists-links.html">LISTS & PSEUDO</a>
+                    <a href="pseudo-elements.html">PSEUDO-ELEMENTS</a>
+                    <a href="transforms-transitions.html">TRANSFORMS</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main class="hero-container">
+        <!-- Left Content -->
+        <div class="hero-left">
+            <p class="tagline">Structure & Meaning</p>
+            <h1 class="main-title">Semantic HTML</h1>
+            <p class="description">Semantic tags clearly describe their meaning to both the browser and developer. Instead of using generic <code>div</code> tags for everything, semantic tags give web pages meaningful structure.</p>
+            <p class="sub-description"><strong>Semantic HTML</strong> gives built-in meaning and structure to browsers, search engines, and screen readers.</p>
+            
+            <div class="action-group">
+                <a href="lists-links.html" class="cta-button">NEXT LESSON →</a>
+            </div>
+        </div>
+
+        <!-- Right Content -->
+        <div class="hero-right">
+            <div class="preview-card">
+                <h3>Key Semantic Tags</h3>
+                <ul>
+                    <li><strong>header:</strong> Top bar containing site branding, logo, or navigation.</li>
+                    <li><strong>nav:</strong> Container specifically for navigation links.</li>
+                    <li><strong>main:</strong> Dominant, unique body content of the document.</li>
+                    <li><strong>article & section:</strong> Self-contained thematic blocks of content.</li>
+                    <li><strong>aside:</strong> Related sidebars or callout boxes.</li>
+                    <li><strong>footer:</strong> Copyright info, contact links, or metadata at the bottom.</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2026 Prince Daryl R. Nieves. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

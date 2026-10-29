@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradients - CSS Lesson Part 2</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="navbar">
+        <div class="logo">
+            <h2>CSS LESSON PART 2</h2>
+        </div>
+        <nav class="nav-links">
+            <a href="../index.html">INTRODUCTION</a>
+
+            <!-- Dropdown 1 -->
+            <div class="dropdown">
+                <button class="dropbtn">BASICS ▾</button>
+                <div class="dropdown-content">
+                    <a href="selectors.html">SELECTORS</a>
+                    <a href="properties.html">PROPERTIES</a>
+                    <a href="gradients.html" class="active">GRADIENTS</a>
+                </div>
+            </div>
+
+            <!-- Dropdown 2 -->
+            <div class="dropdown">
+                <button class="dropbtn">LAYOUT ▾</button>
+                <div class="dropdown-content">
+                    <a href="box-model.html">BOX MODEL</a>
+                    <a href="positioning.html">POSITIONING</a>
+                    <a href="display-flex.html">DISPLAY & FLEX</a>
+                    <a href="semantics.html">SEMANTICS</a>
+                </div>
+            </div>
+
+            <!-- Dropdown 3 -->
+            <div class="dropdown">
+                <button class="dropbtn">ADVANCED ▾</button>
+                <div class="dropdown-content">
+                    <a href="lists-links.html">LISTS & PSEUDO</a>
+                    <a href="pseudo-elements.html">PSEUDO-ELEMENTS</a>
+                    <a href="transforms-transitions.html">TRANSFORMS</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main class="hero-container">
+        <!-- Left Content -->
+        <div class="hero-left">
+            <p class="tagline">Visual Effects</p>
+            <h1 class="main-title">CSS Gradients</h1>
+            <p class="description">Gradients allow you to display smooth transitions between two or more specified colors, replacing flat background colors with dynamic, modern depth.</p>
+            <p class="sub-description">Types include <strong>linear-gradient()</strong> (straight lines/angles) and <strong>radial-gradient()</strong> (circular/from a center point).</p>
+            <a href="box-model.html" class="cta-button">Next Lesson →</a>
+        </div>
+
+        <!-- Right Content -->
+        <div class="hero-right">
+            <div class="preview-card">
+                <h3>Gradient Syntax Example</h3>
+                <p>How this dark monochrome background is made:</p>
+                <br>
+                <code>background: linear-gradient(135deg, #222222 0%, #141414 50%, #0d0d0d 100%);</code>
+                <br><br>
+                <ul>
+                    <li><strong>135deg:</strong> Controls the angle of the transition.</li>
+                    <li><strong>Color Stops:</strong> Smoothly blends from shade to shade across the viewport.</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2026 Prince Daryl R. Nieves. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
